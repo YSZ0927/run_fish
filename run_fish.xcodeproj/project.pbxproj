@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F018F0228C99705002D074A /* run_fishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F0128C99705002D074A /* run_fishApp.swift */; };
+		2F018F0428C99705002D074A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F0328C99705002D074A /* ContentView.swift */; };
+		2F018F0628C99706002D074A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F0528C99706002D074A /* Assets.xcassets */; };
+		2F018F0928C99706002D074A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F0828C99706002D074A /* Preview Assets.xcassets */; };
+		2F018F0D28C99706002D074A /* run_fish WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2F018F0C28C99706002D074A /* run_fish WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F018F1228C99708002D074A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F1128C99708002D074A /* Assets.xcassets */; };
+		2F018F1828C99708002D074A /* run_fish WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2F018F1728C99708002D074A /* run_fish WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F018F1D28C99708002D074A /* run_fishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F1C28C99708002D074A /* run_fishApp.swift */; };
+		2F018F1F28C99708002D074A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F1E28C99708002D074A /* ContentView.swift */; };
+		2F018F2128C99708002D074A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F2028C99708002D074A /* NotificationController.swift */; };
+		2F018F2328C99708002D074A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F2228C99708002D074A /* NotificationView.swift */; };
+		2F018F2528C99708002D074A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F2428C99708002D074A /* ComplicationController.swift */; };
+		2F018F2728C99709002D074A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F2628C99709002D074A /* Assets.xcassets */; };
+		2F018F2A28C99709002D074A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F2928C99709002D074A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F018F0E28C99706002D074A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F018EF628C99704002D074A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F018F0B28C99706002D074A;
+			remoteInfo = "run_fish WatchKit App";
+		};
+		2F018F1928C99708002D074A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F018EF628C99704002D074A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F018F1628C99708002D074A;
+			remoteInfo = "run_fish WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F018F3228C99709002D074A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F018F1828C99708002D074A /* run_fish WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F018F3628C99709002D074A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2F018F0D28C99706002D074A /* run_fish WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F018EFE28C99705002D074A /* run_fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = run_fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F018F0128C99705002D074A /* run_fishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = run_fishApp.swift; sourceTree = "<group>"; };
+		2F018F0328C99705002D074A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F018F0528C99706002D074A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F018F0828C99706002D074A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F018F0C28C99706002D074A /* run_fish WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "run_fish WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F018F1128C99708002D074A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F018F1728C99708002D074A /* run_fish WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "run_fish WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F018F1C28C99708002D074A /* run_fishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = run_fishApp.swift; sourceTree = "<group>"; };
+		2F018F1E28C99708002D074A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F018F2028C99708002D074A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2F018F2228C99708002D074A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2F018F2428C99708002D074A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2F018F2628C99709002D074A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F018F2928C99709002D074A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F018F2B28C99709002D074A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F018F2C28C99709002D074A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F018EFB28C99705002D074A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F018F1428C99708002D074A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F018EF528C99704002D074A = {
+			isa = PBXGroup;
+			children = (
+				2F018F0028C99705002D074A /* run_fish */,
+				2F018F1028C99706002D074A /* run_fish WatchKit App */,
+				2F018F1B28C99708002D074A /* run_fish WatchKit Extension */,
+				2F018EFF28C99705002D074A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F018EFF28C99705002D074A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F018EFE28C99705002D074A /* run_fish.app */,
+				2F018F0C28C99706002D074A /* run_fish WatchKit App.app */,
+				2F018F1728C99708002D074A /* run_fish WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F018F0028C99705002D074A /* run_fish */ = {
+			isa = PBXGroup;
+			children = (
+				2F018F0128C99705002D074A /* run_fishApp.swift */,
+				2F018F0328C99705002D074A /* ContentView.swift */,
+				2F018F0528C99706002D074A /* Assets.xcassets */,
+				2F018F0728C99706002D074A /* Preview Content */,
+			);
+			path = run_fish;
+			sourceTree = "<group>";
+		};
+		2F018F0728C99706002D074A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F018F0828C99706002D074A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F018F1028C99706002D074A /* run_fish WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2F018F1128C99708002D074A /* Assets.xcassets */,
+			);
+			path = "run_fish WatchKit App";
+			sourceTree = "<group>";
+		};
+		2F018F1B28C99708002D074A /* run_fish WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F018F1C28C99708002D074A /* run_fishApp.swift */,
+				2F018F1E28C99708002D074A /* ContentView.swift */,
+				2F018F2028C99708002D074A /* NotificationController.swift */,
+				2F018F2228C99708002D074A /* NotificationView.swift */,
+				2F018F2428C99708002D074A /* ComplicationController.swift */,
+				2F018F2628C99709002D074A /* Assets.xcassets */,
+				2F018F2B28C99709002D074A /* Info.plist */,
+				2F018F2C28C99709002D074A /* PushNotificationPayload.apns */,
+				2F018F2828C99709002D074A /* Preview Content */,
+			);
+			path = "run_fish WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2F018F2828C99709002D074A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F018F2928C99709002D074A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F018EFD28C99705002D074A /* run_fish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F018F3728C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish" */;
+			buildPhases = (
+				2F018EFA28C99705002D074A /* Sources */,
+				2F018EFB28C99705002D074A /* Frameworks */,
+				2F018EFC28C99705002D074A /* Resources */,
+				2F018F3628C99709002D074A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F018F0F28C99706002D074A /* PBXTargetDependency */,
+			);
+			name = run_fish;
+			productName = run_fish;
+			productReference = 2F018EFE28C99705002D074A /* run_fish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F018F0B28C99706002D074A /* run_fish WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F018F3328C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish WatchKit App" */;
+			buildPhases = (
+				2F018F0A28C99706002D074A /* Resources */,
+				2F018F3228C99709002D074A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F018F1A28C99708002D074A /* PBXTargetDependency */,
+			);
+			name = "run_fish WatchKit App";
+			productName = "run_fish WatchKit App";
+			productReference = 2F018F0C28C99706002D074A /* run_fish WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2F018F1628C99708002D074A /* run_fish WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F018F2F28C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish WatchKit Extension" */;
+			buildPhases = (
+				2F018F1328C99708002D074A /* Sources */,
+				2F018F1428C99708002D074A /* Frameworks */,
+				2F018F1528C99708002D074A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "run_fish WatchKit Extension";
+			productName = "run_fish WatchKit Extension";
+			productReference = 2F018F1728C99708002D074A /* run_fish WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F018EF628C99704002D074A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2F018EFD28C99705002D074A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2F018F0B28C99706002D074A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2F018F1628C99708002D074A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F018EF928C99704002D074A /* Build configuration list for PBXProject "run_fish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F018EF528C99704002D074A;
+			productRefGroup = 2F018EFF28C99705002D074A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F018EFD28C99705002D074A /* run_fish */,
+				2F018F0B28C99706002D074A /* run_fish WatchKit App */,
+				2F018F1628C99708002D074A /* run_fish WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F018EFC28C99705002D074A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F018F0928C99706002D074A /* Preview Assets.xcassets in Resources */,
+				2F018F0628C99706002D074A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F018F0A28C99706002D074A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F018F1228C99708002D074A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F018F1528C99708002D074A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F018F2A28C99709002D074A /* Preview Assets.xcassets in Resources */,
+				2F018F2728C99709002D074A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F018EFA28C99705002D074A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F018F0428C99705002D074A /* ContentView.swift in Sources */,
+				2F018F0228C99705002D074A /* run_fishApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F018F1328C99708002D074A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F018F2128C99708002D074A /* NotificationController.swift in Sources */,
+				2F018F1F28C99708002D074A /* ContentView.swift in Sources */,
+				2F018F2528C99708002D074A /* ComplicationController.swift in Sources */,
+				2F018F1D28C99708002D074A /* run_fishApp.swift in Sources */,
+				2F018F2328C99708002D074A /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F018F0F28C99706002D074A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F018F0B28C99706002D074A /* run_fish WatchKit App */;
+			targetProxy = 2F018F0E28C99706002D074A /* PBXContainerItemProxy */;
+		};
+		2F018F1A28C99708002D074A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F018F1628C99708002D074A /* run_fish WatchKit Extension */;
+			targetProxy = 2F018F1928C99708002D074A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F018F2D28C99709002D074A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F018F2E28C99709002D074A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F018F3028C99709002D074A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"run_fish WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "run_fish WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "run_fish WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.run-fish.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2F018F3128C99709002D074A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"run_fish WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "run_fish WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "run_fish WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.run-fish.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2F018F3428C99709002D074A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = run_fish_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "run_fish WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "fish10927.run-fish";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.run-fish.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2F018F3528C99709002D074A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = run_fish_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "run_fish WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "fish10927.run-fish";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.run-fish.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2F018F3828C99709002D074A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"run_fish/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.run-fish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F018F3928C99709002D074A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"run_fish/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.run-fish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F018EF928C99704002D074A /* Build configuration list for PBXProject "run_fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F018F2D28C99709002D074A /* Debug */,
+				2F018F2E28C99709002D074A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F018F2F28C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F018F3028C99709002D074A /* Debug */,
+				2F018F3128C99709002D074A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F018F3328C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F018F3428C99709002D074A /* Debug */,
+				2F018F3528C99709002D074A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F018F3728C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F018F3828C99709002D074A /* Debug */,
+				2F018F3928C99709002D074A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F018EF628C99704002D074A /* Project object */;
+}
