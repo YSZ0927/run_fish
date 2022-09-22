@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EB08880C0F5E873A9B1E04F /* Pods_run_fish_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A702557641DD4C233CCA9512 /* Pods_run_fish_WatchKit_App.framework */; };
 		2F018F0228C99705002D074A /* run_fishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F0128C99705002D074A /* run_fishApp.swift */; };
 		2F018F0428C99705002D074A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F0328C99705002D074A /* ContentView.swift */; };
 		2F018F0628C99706002D074A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F0528C99706002D074A /* Assets.xcassets */; };
@@ -21,6 +22,17 @@
 		2F018F2528C99708002D074A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018F2428C99708002D074A /* ComplicationController.swift */; };
 		2F018F2728C99709002D074A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F2628C99709002D074A /* Assets.xcassets */; };
 		2F018F2A28C99709002D074A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F018F2928C99709002D074A /* Preview Assets.xcassets */; };
+		2F1B63CA28C998D1009F9BED /* TabEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B63C928C998D1009F9BED /* TabEnum.swift */; };
+		2F1B63CC28C99909009F9BED /* AMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B63CB28C99909009F9BED /* AMapView.swift */; };
+		2F1B63CE28C9991F009F9BED /* CustomerTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B63CD28C9991F009F9BED /* CustomerTabBar.swift */; };
+		2F1B63D028C9992B009F9BED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B63CF28C9992B009F9BED /* Home.swift */; };
+		2F38837C28D0227300EC63DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38837B28D0227300EC63DF /* AVFoundation.framework */; };
+		2F38837E28D02BFE00EC63DF /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38837D28D02BFE00EC63DF /* AMapNaviKit.framework */; };
+		2F38838028D02C1500EC63DF /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38837F28D02C1500EC63DF /* AMapFoundationKit.framework */; };
+		2F38838228D02C4700EC63DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38838128D02C4700EC63DF /* CoreLocation.framework */; };
+		2F703D6528CE247F005A8008 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F703D6428CE247F005A8008 /* GlobalConst.swift */; };
+		2F9A92E628C9E2BD00C4D6D7 /* Found.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9A92E528C9E2BD00C4D6D7 /* Found.swift */; };
+		4D702F781F6DE7B5DD0B108D /* Pods_run_fish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBDB9E344B4A8DC62253DCB /* Pods_run_fish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1326032FAC73259EDC406FE0 /* Pods-run_fish WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run_fish WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-run_fish WatchKit App/Pods-run_fish WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		2F018EFE28C99705002D074A /* run_fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = run_fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F018F0128C99705002D074A /* run_fishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = run_fishApp.swift; sourceTree = "<group>"; };
 		2F018F0328C99705002D074A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +96,26 @@
 		2F018F2928C99709002D074A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F018F2B28C99709002D074A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F018F2C28C99709002D074A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2F1B63C928C998D1009F9BED /* TabEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabEnum.swift; sourceTree = "<group>"; };
+		2F1B63CB28C99909009F9BED /* AMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMapView.swift; sourceTree = "<group>"; };
+		2F1B63CD28C9991F009F9BED /* CustomerTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTabBar.swift; sourceTree = "<group>"; };
+		2F1B63CF28C9992B009F9BED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2F38837B28D0227300EC63DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2F38837D28D02BFE00EC63DF /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapNaviKit.framework; path = Pods/AMapNavi/AMapNaviKit.framework; sourceTree = "<group>"; };
+		2F38837F28D02C1500EC63DF /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = Pods/AMapFoundation/AMapFoundationKit.framework; sourceTree = "<group>"; };
+		2F38838128D02C4700EC63DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		2F5FB7C528C9B773001EA532 /* run-fish-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "run-fish-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2F703D6428CE247F005A8008 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		2F8D273928C9DE47002F1104 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F9A92E528C9E2BD00C4D6D7 /* Found.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Found.swift; sourceTree = "<group>"; };
+		3AF931330E2B73BC932094DC /* Pods-run_fish WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run_fish WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-run_fish WatchKit App/Pods-run_fish WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		3CBDB9E344B4A8DC62253DCB /* Pods_run_fish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_run_fish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8D1B95515A00685547FEB /* Pods-run_fish WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run_fish WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-run_fish WatchKit Extension/Pods-run_fish WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC9BF76330AFDE81CFD0DC3 /* Pods_run_fish_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_run_fish_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A702557641DD4C233CCA9512 /* Pods_run_fish_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_run_fish_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4899EC89C70DC87A4C68E58 /* Pods-run_fish WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run_fish WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-run_fish WatchKit Extension/Pods-run_fish WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		DF8615E165DD055D04C40660 /* Pods-run_fish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run_fish.release.xcconfig"; path = "Target Support Files/Pods-run_fish/Pods-run_fish.release.xcconfig"; sourceTree = "<group>"; };
+		ED9204C777AF03BBBB9177E9 /* Pods-run_fish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run_fish.debug.xcconfig"; path = "Target Support Files/Pods-run_fish/Pods-run_fish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +123,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F38838228D02C4700EC63DF /* CoreLocation.framework in Frameworks */,
+				2F38838028D02C1500EC63DF /* AMapFoundationKit.framework in Frameworks */,
+				2F38837E28D02BFE00EC63DF /* AMapNaviKit.framework in Frameworks */,
+				2F38837C28D0227300EC63DF /* AVFoundation.framework in Frameworks */,
+				4D702F781F6DE7B5DD0B108D /* Pods_run_fish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,16 +138,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5700237BC1DF79542D35F87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB08880C0F5E873A9B1E04F /* Pods_run_fish_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2F018EF528C99704002D074A = {
 			isa = PBXGroup;
 			children = (
+				2F8D273928C9DE47002F1104 /* ViewController.h */,
 				2F018F0028C99705002D074A /* run_fish */,
 				2F018F1028C99706002D074A /* run_fish WatchKit App */,
 				2F018F1B28C99708002D074A /* run_fish WatchKit Extension */,
 				2F018EFF28C99705002D074A /* Products */,
+				E0FC7FF172683AE9064B0824 /* Pods */,
+				42DC7E0C257A44029C5C6720 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +175,9 @@
 		2F018F0028C99705002D074A /* run_fish */ = {
 			isa = PBXGroup;
 			children = (
+				2F5FB7C528C9B773001EA532 /* run-fish-Info.plist */,
+				2F1B63C828C998B3009F9BED /* View */,
+				2F1B63C728C998AC009F9BED /* Model */,
 				2F018F0128C99705002D074A /* run_fishApp.swift */,
 				2F018F0328C99705002D074A /* ContentView.swift */,
 				2F018F0528C99706002D074A /* Assets.xcassets */,
@@ -174,6 +226,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2F1B63C728C998AC009F9BED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B63C928C998D1009F9BED /* TabEnum.swift */,
+				2F703D6428CE247F005A8008 /* GlobalConst.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F1B63C828C998B3009F9BED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B63CB28C99909009F9BED /* AMapView.swift */,
+				2F1B63CD28C9991F009F9BED /* CustomerTabBar.swift */,
+				2F1B63CF28C9992B009F9BED /* Home.swift */,
+				2F9A92E528C9E2BD00C4D6D7 /* Found.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42DC7E0C257A44029C5C6720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F38838128D02C4700EC63DF /* CoreLocation.framework */,
+				2F38837F28D02C1500EC63DF /* AMapFoundationKit.framework */,
+				2F38837D28D02BFE00EC63DF /* AMapNaviKit.framework */,
+				2F38837B28D0227300EC63DF /* AVFoundation.framework */,
+				3CBDB9E344B4A8DC62253DCB /* Pods_run_fish.framework */,
+				A702557641DD4C233CCA9512 /* Pods_run_fish_WatchKit_App.framework */,
+				8AC9BF76330AFDE81CFD0DC3 /* Pods_run_fish_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FC7FF172683AE9064B0824 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9204C777AF03BBBB9177E9 /* Pods-run_fish.debug.xcconfig */,
+				DF8615E165DD055D04C40660 /* Pods-run_fish.release.xcconfig */,
+				3AF931330E2B73BC932094DC /* Pods-run_fish WatchKit App.debug.xcconfig */,
+				1326032FAC73259EDC406FE0 /* Pods-run_fish WatchKit App.release.xcconfig */,
+				57C8D1B95515A00685547FEB /* Pods-run_fish WatchKit Extension.debug.xcconfig */,
+				C4899EC89C70DC87A4C68E58 /* Pods-run_fish WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,10 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F018F3728C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish" */;
 			buildPhases = (
+				2B3014EB31A72B211144887A /* [CP] Check Pods Manifest.lock */,
 				2F018EFA28C99705002D074A /* Sources */,
 				2F018EFB28C99705002D074A /* Frameworks */,
 				2F018EFC28C99705002D074A /* Resources */,
 				2F018F3628C99709002D074A /* Embed Watch Content */,
+				8635D6E11653EAD6E0AB5193 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,8 +301,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F018F3328C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish WatchKit App" */;
 			buildPhases = (
+				D0560C3CAD647692014E638F /* [CP] Check Pods Manifest.lock */,
 				2F018F0A28C99706002D074A /* Resources */,
 				2F018F3228C99709002D074A /* Embed App Extensions */,
+				5700237BC1DF79542D35F87F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F018F2F28C99709002D074A /* Build configuration list for PBXNativeTarget "run_fish WatchKit Extension" */;
 			buildPhases = (
+				112900519510C394C3283597 /* [CP] Check Pods Manifest.lock */,
 				2F018F1328C99708002D074A /* Sources */,
 				2F018F1428C99708002D074A /* Frameworks */,
 				2F018F1528C99708002D074A /* Resources */,
@@ -300,13 +404,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		112900519510C394C3283597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-run_fish WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B3014EB31A72B211144887A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-run_fish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8635D6E11653EAD6E0AB5193 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-run_fish/Pods-run_fish-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-run_fish/Pods-run_fish-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-run_fish/Pods-run_fish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0560C3CAD647692014E638F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-run_fish WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F018EFA28C99705002D074A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1B63CA28C998D1009F9BED /* TabEnum.swift in Sources */,
+				2F1B63CE28C9991F009F9BED /* CustomerTabBar.swift in Sources */,
 				2F018F0428C99705002D074A /* ContentView.swift in Sources */,
 				2F018F0228C99705002D074A /* run_fishApp.swift in Sources */,
+				2F703D6528CE247F005A8008 /* GlobalConst.swift in Sources */,
+				2F9A92E628C9E2BD00C4D6D7 /* Found.swift in Sources */,
+				2F1B63D028C9992B009F9BED /* Home.swift in Sources */,
+				2F1B63CC28C99909009F9BED /* AMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +586,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				NSLocationWhenInUseUsageDescription = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -442,6 +640,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				NSLocationWhenInUseUsageDescription = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -449,6 +649,7 @@
 		};
 		2F018F3028C99709002D074A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C8D1B95515A00685547FEB /* Pods-run_fish WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +682,7 @@
 		};
 		2F018F3128C99709002D074A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4899EC89C70DC87A4C68E58 /* Pods-run_fish WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +716,7 @@
 		};
 		2F018F3428C99709002D074A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF931330E2B73BC932094DC /* Pods-run_fish WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -540,6 +743,7 @@
 		};
 		2F018F3528C99709002D074A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1326032FAC73259EDC406FE0 /* Pods-run_fish WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -567,6 +771,7 @@
 		};
 		2F018F3828C99709002D074A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9204C777AF03BBBB9177E9 /* Pods-run_fish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,13 +780,21 @@
 				DEVELOPMENT_ASSET_PATHS = "\"run_fish/Preview Content\"";
 				DEVELOPMENT_TEAM = WB2YADR246;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AMapNavi",
+					"$(PROJECT_DIR)/Pods/AMapFoundation",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "run-fish-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "定位";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "定位";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -591,6 +804,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = ViewController.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -598,6 +812,7 @@
 		};
 		2F018F3928C99709002D074A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8615E165DD055D04C40660 /* Pods-run_fish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -606,13 +821,21 @@
 				DEVELOPMENT_ASSET_PATHS = "\"run_fish/Preview Content\"";
 				DEVELOPMENT_TEAM = WB2YADR246;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AMapNavi",
+					"$(PROJECT_DIR)/Pods/AMapFoundation",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "run-fish-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "定位";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "定位";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,6 +845,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = ViewController.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
