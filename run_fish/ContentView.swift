@@ -18,7 +18,7 @@ struct ContentView: View {
                 TabView(selection: $currentTab) {
                     // MARK: Need to Apply BG For Each Tab View
                     // 需要为每个标签视图应用BG
-                    Text("Found")
+                    Running()
                         .ApplyBG()
                         .tag(Tab.found)
                     Home()

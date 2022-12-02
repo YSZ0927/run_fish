@@ -16,6 +16,6 @@ extension UIScreen{
 
 struct UITheme{
 //    static let mainColor = Color(red: 139, green: 137, blue: 112)
-    static let mainColor = Color(red: 188, green: 82, blue: 205, opacity: 1)
+    static let mainColor = Color(red: 18, green: 82, blue: 205, opacity: 1)
     static let backgroundColor = Color(red: 238, green: 233, blue: 191)
 }

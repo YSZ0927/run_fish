@@ -47,7 +47,7 @@ struct Home: View {
                             Text("Go!")
                                 .font(.system(size: 28))
                                 .padding()
-                                .background(UITheme.mainColor)
+                                .background(.yellow)
                                 .foregroundColor(.red)
                                 .cornerRadius(50)
                         }
@@ -63,6 +63,7 @@ struct Home: View {
                 .background(UITheme.backgroundColor)
                 .fullScreenCover(isPresented: $isShow) {
                     Text("\(startTiming)s")
+                        .font(.system(size: 28))
                         .onReceive(timer, perform: { _ in
                             if startTiming > 1 {
                                 startTiming -= 1

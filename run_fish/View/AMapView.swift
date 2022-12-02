@@ -28,6 +28,7 @@ final class AMapView:NSObject, UIViewRepresentable, MAMapViewDelegate {
     }
     
     func updateUIView(_ uiView: MAMapView, context: Context) {
+        print(111)
     
     }
     
